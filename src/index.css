@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --card-bg: #0f0f10;
+  --dark-bg: #101113;
+  --primary: #b2a7fb;
+  --secondary: rgb(30, 30, 31);
+  --blue-accent: #3b82f6;
+  --green-accent: #22c55e;
+}
+
+body {
+  background-color: var(--dark-bg);
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+
+.bg-card-bg {
+  background-color: var(--card-bg);
+}
+
+.bg-purple-accent {
+  background-color: var(--primary);
+}
+
+.text-purple-accent {
+  color: var(--primary);
+}
+
+.bg-blue-accent {
+  background-color: var(--blue-accent);
+}
+
+.text-blue-accent {
+  color: var(--blue-accent);
+}
+
+.bg-green-accent {
+  background-color: var(--green-accent);
+}
+
+.text-green-accent {
+  color: var(--green-accent);
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #0d0c0d;
+  color: #fafafa;
+}
+
+* {
+  box-sizing: border-box;
+}
+/* Add consistent border styles for all cards */
+.border {
+  border: 1px solid rgb(30, 30, 31) !important; /* Matches the screenshot */
+}
+
+/* Scrollbar width */
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+/* Scrollbar thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+  border-radius: 0.75rem;
+  background: var(--primary);
+}
+
+/* Scrollbar track (the background) */
+::-webkit-scrollbar-track {
+  background: var(--dark-bg);
+}
