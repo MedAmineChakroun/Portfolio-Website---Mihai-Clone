@@ -37,7 +37,7 @@ const Projects = () => {
           </svg>
           Projects
         </h3>
-        <p class="text-sm text-muted-foreground">
+        <p class="text-sm text-muted-foreground text-gray-400">
           Here are some of the projects I have worked on
         </p>
       </div>

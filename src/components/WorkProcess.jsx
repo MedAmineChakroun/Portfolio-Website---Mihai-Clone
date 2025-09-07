@@ -60,7 +60,7 @@ const WorkProcess = () => {
           </svg>
           Work Process
         </h3>
-        <p class="text-sm text-muted-foreground">
+        <p class="text-sm text-muted-foreground text-gray-400">
           The work process explained in 4 simple steps
         </p>
       </div>

@@ -35,7 +35,7 @@ const Services = () => {
             </svg>
             Services
           </h3>
-          <p class="text-sm text-muted-foreground">
+          <p class="text-sm text-muted-foreground text-gray-400">
             My services are tailored to your needs and budget
           </p>
         </div>

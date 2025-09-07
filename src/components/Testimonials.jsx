@@ -44,7 +44,7 @@ const Testimonials = () => {
           </svg>
           Testimonials
         </h3>
-        <p class="text-sm text-muted-foreground">
+        <p class="text-sm text-muted-foreground text-gray-400">
           What my clients say about me
         </p>
       </div>
