@@ -98,7 +98,10 @@ const WorkProcess = () => {
                   We will discuss your project and its goals.
                 </p>
               </div>
-              <div class="absolute right-2 top-2 rounded-xl bg-secondary p-1 font-black text-gray-400 transition duration-300 md:group-hover:-translate-y-10 md:group-hover:translate-x-10 md:group-hover:opacity-0">
+              <div
+                class="absolute right-2 top-2 rounded-xl bg-secondary p-1 font-black text-gray-400 transition duration-300 md:group-hover:-translate-y-10 md:group-hover:translate-x-10 md:group-hover:opacity-0"
+                style={{ backgroundColor: "var(--secondary)" }}
+              >
                 #1
               </div>
             </div>
@@ -139,7 +142,10 @@ const WorkProcess = () => {
                   needs.
                 </p>
               </div>
-              <div class="absolute right-2 top-2 rounded-xl bg-secondary p-1 font-black text-gray-400 transition duration-300 md:group-hover:-translate-y-10 md:group-hover:translate-x-10 md:group-hover:opacity-0">
+              <div
+                class="absolute right-2 top-2 rounded-xl bg-secondary p-1 font-black text-gray-400 transition duration-300 md:group-hover:-translate-y-10 md:group-hover:translate-x-10 md:group-hover:opacity-0"
+                style={{ backgroundColor: "var(--secondary)" }}
+              >
                 #2
               </div>
             </div>
@@ -179,7 +185,10 @@ const WorkProcess = () => {
                   needed.
                 </p>
               </div>
-              <div class="absolute right-2 top-2 rounded-xl bg-secondary p-1 font-black text-gray-400 transition duration-300 md:group-hover:-translate-y-10 md:group-hover:translate-x-10 md:group-hover:opacity-0">
+              <div
+                class="absolute right-2 top-2 rounded-xl bg-secondary p-1 font-black text-gray-400 transition duration-300 md:group-hover:-translate-y-10 md:group-hover:translate-x-10 md:group-hover:opacity-0"
+                style={{ backgroundColor: "var(--secondary)" }}
+              >
                 #3
               </div>
             </div>
@@ -220,7 +229,10 @@ const WorkProcess = () => {
                   I will give you the source code and help you with the launch.
                 </p>
               </div>
-              <div class="absolute right-2 top-2 rounded-xl bg-secondary p-1 font-black text-gray-400 transition duration-300 md:group-hover:-translate-y-10 md:group-hover:translate-x-10 md:group-hover:opacity-0">
+              <div
+                class="absolute right-2 top-2 rounded-xl bg-secondary p-1 font-black text-gray-400 transition duration-300 md:group-hover:-translate-y-10 md:group-hover:translate-x-10 md:group-hover:opacity-0"
+                style={{ backgroundColor: "var(--secondary)" }}
+              >
                 #4
               </div>
             </div>

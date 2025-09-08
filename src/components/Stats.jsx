@@ -33,7 +33,10 @@ const Stats = () => {
             </svg>
           </div>
           <button data-state="closed" class="cursor-help">
-            <div class="relative flex w-fit items-center justify-center gap-1 rounded-xl bg-secondary/40 px-3 py-1 md:px-3 md:py-1.5">
+            <div
+              style={{ backgroundColor: "var(--secondary)" }}
+              class="relative flex w-fit items-center justify-center gap-1 rounded-xl bg-secondary/40 px-3 py-1 md:px-3 md:py-1.5"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -105,7 +108,10 @@ const Stats = () => {
             class="cursor-default"
             aria-describedby="radix-:r1:"
           >
-            <div class="relative flex w-fit items-center justify-center gap-1 rounded-xl bg-secondary/40 px-3 py-1 md:px-3 md:py-1.5">
+            <div
+              style={{ backgroundColor: "var(--secondary)" }}
+              class="relative flex w-fit items-center justify-center gap-1 rounded-xl bg-secondary/40 px-3 py-1 md:px-3 md:py-1.5"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -160,7 +166,10 @@ const Stats = () => {
             class="cursor-default"
             aria-describedby="radix-:r2:"
           >
-            <div class="relative flex w-fit items-center justify-center gap-1 rounded-xl bg-secondary/40 px-3 py-1 md:px-3 md:py-1.5">
+            <div
+              style={{ backgroundColor: "var(--secondary)" }}
+              class="relative flex w-fit items-center justify-center gap-1 rounded-xl bg-secondary/40 px-3 py-1 md:px-3 md:py-1.5"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 xmlns:xlink="http://www.w3.org/1999/xlink"
