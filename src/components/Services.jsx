@@ -2,17 +2,29 @@ import React from "react";
 
 const Services = () => {
   const services = [
-    "SEO Optimization",
+    "Web Design",
     "Hosting Guide",
-    "Web Security",
+    "Freelance",
+    "Website Rework",
+    "Web Development",
+    "Web Design",
+    "Hosting Guide",
+    "Freelance",
+    "Website Rework",
+    "Web Development",
+    "Web Design",
+    "Hosting Guide",
+    "Freelance",
     "Website Rework",
     "Web Development",
   ];
 
   return (
     <div
-      className="rounded-lg border bg-card text-card-foreground shadow-sm max-w-xl mx-auto p-6"
-      style={{ backgroundColor: "var(--card-bg)" }}
+      className="rounded-lg border bg-card text-card-foreground shadow-sm relative p-6 pb-0"
+      style={{
+        backgroundColor: "var(--card-bg)",
+      }}
     >
       <div className="flex items-center gap-3 mb-6">
         <div class="flex flex-col space-y-1.5">
@@ -38,6 +50,40 @@ const Services = () => {
           <p class="text-sm text-muted-foreground text-gray-400">
             My services are tailored to your needs and budget
           </p>
+        </div>
+      </div>
+      <div className="overflow-hidden h-40  relative" style={{}}>
+        <div className="absolute w-full animate-scroll top-20">
+          <div className="flex flex-row items-center text-primary ">
+            {services.map((service, index) => (
+              <div
+                key={index}
+                className="text-lg font-semibold text-primary  text-center mx-2 px-3 py-1 rounded-lg whitespace-nowrap"
+                style={{
+                  backgroundColor: "#0D0C0DE6",
+                  color: "var(--primary-glow)",
+                }}
+              >
+                {service}
+              </div>
+            ))}
+          </div>
+        </div>
+        <div className="absolute w-full animate-scroll2 ">
+          <div className="flex flex-row items-center text-primary ">
+            {services.map((service, index) => (
+              <div
+                key={index}
+                className="text-lg font-semibold text-primary  text-center mx-2 px-3 py-1 rounded-lg whitespace-nowrap"
+                style={{
+                  backgroundColor: "#0D0C0DE6",
+                  color: "var(--primary-glow)",
+                }}
+              >
+                {service}
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </div>

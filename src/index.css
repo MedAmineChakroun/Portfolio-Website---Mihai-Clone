@@ -9,6 +9,7 @@
   --secondary: rgb(30, 30, 31);
   --blue-accent: #3b82f6;
   --green-accent: #22c55e;
+  --primary-glow: #cdc6fd;
 }
 
 body {
@@ -78,4 +79,30 @@ body {
 /* Scrollbar track (the background) */
 ::-webkit-scrollbar-track {
   background: var(--dark-bg);
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(-300%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-300%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 30s linear infinite;
+}
+
+.animate-scroll2 {
+  animation: scrollLeft 30s linear infinite;
 }
