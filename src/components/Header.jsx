@@ -1,4 +1,5 @@
 import React from "react";
+import authorImg from "../assets/1703248186843.jpeg";
 
 const Header = () => {
   return (
@@ -15,7 +16,7 @@ const Header = () => {
             height="100"
             decoding="async"
             className="rounded-2xl"
-            src="assets/1703248186843.jpeg"
+            src={authorImg}
             style={{ color: "transparent" }}
           />
           <div className="ml-4 flex flex-col gap-y-1">

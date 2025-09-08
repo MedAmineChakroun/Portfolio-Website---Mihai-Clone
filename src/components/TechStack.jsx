@@ -1,30 +1,34 @@
 import React from "react";
+import angularPink from "../assets/angularpink.png";
+import springImg from "../assets/spring.png";
+import dotnetImg from "../assets/.net.png";
+import angularImg from "../assets/angular.png";
 
 const TechStack = () => {
   const technologies = [
     {
       name: "Angular",
       version: "Version 16+",
-      icon: "./assets/angularpink.png",
+      icon: angularPink,
       color: "var(--secondary)",
       link: "https://angular.io",
     },
     {
       name: "Spring Boot",
-      icon: "./assets/spring.png",
+      icon: springImg,
       color: "var(--secondary)",
       link: "https://spring.io/projects/spring-boot",
     },
     {
       name: ".NET",
       version: "Core 8.0+",
-      icon: "./assets/.net.png",
+      icon: dotnetImg,
       color: "var(--secondary)",
       link: "https://dotnet.microsoft.com",
     },
     {
       name: "Node.JS",
-      icon: "./assets/angularpink.png",
+      icon: angularImg,
       color: "var(--secondary)",
       link: "https://nodejs.org",
     },
