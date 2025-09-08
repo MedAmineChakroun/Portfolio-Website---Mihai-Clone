@@ -11,21 +11,19 @@ const TechStack = () => {
     },
     {
       name: "Spring Boot",
-      version: "Version 3.1+",
       icon: "/assets/spring.png",
       color: "var(--secondary)",
       link: "https://spring.io/projects/spring-boot",
     },
     {
       name: ".NET",
-      version: "Version 7.0",
+      version: "Core 8.0+",
       icon: "/assets/.net.png",
       color: "var(--secondary)",
       link: "https://dotnet.microsoft.com",
     },
     {
       name: "Node.JS",
-      version: "Version 20.17.0",
       icon: "/assets/angularpink.png",
       color: "var(--secondary)",
       link: "https://nodejs.org",

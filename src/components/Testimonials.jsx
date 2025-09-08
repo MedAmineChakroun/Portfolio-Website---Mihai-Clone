@@ -24,7 +24,7 @@ const Testimonials = () => {
       className="rounded-lg border bg-card text-card-foreground shadow-sm relative p-6"
       style={{ backgroundColor: "var(--card-bg)" }}
     >
-      <div class="flex flex-col space-y-1.5 ">
+      <div class="flex flex-col space-y-1.5 pb-4">
         <h3 class="text-2xl font-semibold leading-none tracking-tight flex flex-row items-center gap-1">
           <svg
             xmlns="http://www.w3.org/2000/svg"

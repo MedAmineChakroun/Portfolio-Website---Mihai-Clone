@@ -7,15 +7,19 @@ const Services = () => {
     "Freelance",
     "Website Rework",
     "Web Development",
+    "Mobile Design",
+    "Website Rework",
     "Web Design",
     "Hosting Guide",
     "Freelance",
     "Website Rework",
     "Web Development",
+    "Mobile Design",
+    "Website Rework",
     "Web Design",
     "Hosting Guide",
     "Freelance",
-    "Website Rework",
+
     "Web Development",
   ];
 
