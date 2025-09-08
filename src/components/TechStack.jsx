@@ -2,7 +2,7 @@ import React from "react";
 import angularPink from "../assets/angularpink.png";
 import springImg from "../assets/spring.png";
 import dotnetImg from "../assets/.net.png";
-import angularImg from "../assets/angular.png";
+import nodeImg from "../assets/node.png";
 
 const TechStack = () => {
   const technologies = [
@@ -28,7 +28,7 @@ const TechStack = () => {
     },
     {
       name: "Node.JS",
-      icon: angularImg,
+      icon: nodeImg,
       color: "var(--secondary)",
       link: "https://nodejs.org",
     },
