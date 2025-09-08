@@ -9,7 +9,7 @@ const Footer = () => {
           class="relative z-50 font-semibold text-primary"
           href="https://github.com/kkMihai"
         >
-          kkMihai
+          Med Amine Chakroun
           <div class="absolute inset-x-0 bottom-0 z-10 mx-auto h-4 bg-primary blur-lg"></div>
         </a>
       </div>

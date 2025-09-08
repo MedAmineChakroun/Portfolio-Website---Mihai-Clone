@@ -3,19 +3,9 @@ import React from "react";
 const Testimonials = () => {
   const testimonials = [
     {
-      name: "Anom Delvfox",
-      rating: 5,
-      text: "Working with Mihai was a great experience. He is always on time and ready to help",
-    },
-    {
-      name: "Anom NixServices",
+      name: "Zaid Gouader",
       rating: 5,
       text: "This dude is a beast. He is very good at what he is doing I would recommend him to anyone who needs a website.",
-    },
-    {
-      name: "Emilio",
-      rating: 5,
-      text: "Great developer with excellent communication skills.",
     },
   ];
 

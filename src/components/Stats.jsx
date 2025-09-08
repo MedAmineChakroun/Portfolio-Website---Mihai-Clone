@@ -10,7 +10,7 @@ const Stats = () => {
         <div class="flex flex-col items-center justify-center gap-1 p-4 md:p-6">
           <div class="flex items-center font-bold">
             <span class="bg-gradient-to-b from-white to-gray-800 bg-clip-text font-mono text-4xl text-transparent md:text-5xl">
-              19
+              15
             </span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -81,7 +81,7 @@ const Stats = () => {
         <div class="flex flex-col items-center justify-center gap-1 p-4 md:p-6">
           <div class="flex items-center font-bold">
             <span class="bg-gradient-to-b from-white to-gray-800 bg-clip-text font-mono text-4xl text-transparent md:text-5xl">
-              9
+              5
             </span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -118,8 +118,8 @@ const Stats = () => {
                 aria-hidden="true"
                 role="img"
                 class="iconify iconify--fluent size-6 text-primary"
-                width="1em"
-                height="1em"
+                width="2em"
+                height="2em"
                 viewBox="0 0 12 12"
               >
                 <path
@@ -127,7 +127,9 @@ const Stats = () => {
                   d="M6.153 7.008A1.5 1.5 0 0 1 7.5 8.5c0 .771-.47 1.409-1.102 1.83c-.635.424-1.485.67-2.398.67s-1.763-.246-2.398-.67C.969 9.91.5 9.271.5 8.5A1.5 1.5 0 0 1 2 7h4zM10.003 7a1.5 1.5 0 0 1 1.5 1.5c0 .695-.432 1.211-.983 1.528c-.548.315-1.265.472-2.017.472q-.38-.001-.741-.056c.433-.512.739-1.166.739-1.944A2.5 2.5 0 0 0 7.997 7zM4.002 1.496A2.253 2.253 0 1 1 4 6.001a2.253 2.253 0 0 1 0-4.505m4.75 1.001a1.75 1.75 0 1 1 0 3.5a1.75 1.75 0 0 1 0-3.5"
                 ></path>
               </svg>
-              <span class="text-sm font-semibold text-gray-400">Clients</span>
+              <span class="text-sm font-semibold text-gray-400">
+                Techs mastered
+              </span>
             </div>
           </button>
         </div>
@@ -138,8 +140,8 @@ const Stats = () => {
       >
         <div class="flex flex-col items-center justify-center gap-1 p-4 md:p-6">
           <div class="flex items-center font-bold">
-            <span class="bg-gradient-to-b from-white to-gray-800 bg-clip-text font-mono text-4xl text-transparent md:text-5xl">
-              4
+            <span class="bg-gradient-to-b from-white to-gray-800 bg-clip-text font-mono text-5xl text-transparent md:text-5xl">
+              3
             </span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -182,16 +184,11 @@ const Stats = () => {
               >
                 <path
                   fill="currentColor"
-                  d="M18.483 16.767A8.5 8.5 0 0 1 8.118 7.081a1 1 0 0 1-.113.097c-.28.213-.63.292-1.33.45l-.635.144c-2.46.557-3.69.835-3.983 1.776c-.292.94.546 1.921 2.223 3.882l.434.507c.476.557.715.836.822 1.18c.107.345.071.717-.001 1.46l-.066.677c-.253 2.617-.38 3.925.386 4.506s1.918.052 4.22-1.009l.597-.274c.654-.302.981-.452 1.328-.452s.674.15 1.329.452l.595.274c2.303 1.06 3.455 1.59 4.22 1.01c.767-.582.64-1.89.387-4.507z"
-                ></path>
-                <path
-                  fill="currentColor"
-                  d="m9.153 5.408l-.328.588c-.36.646-.54.969-.82 1.182q.06-.045.113-.097a8.5 8.5 0 0 0 10.366 9.686l-.02-.19c-.071-.743-.107-1.115 0-1.46c.107-.344.345-.623.822-1.18l.434-.507c1.677-1.96 2.515-2.941 2.222-3.882c-.292-.941-1.522-1.22-3.982-1.776l-.636-.144c-.699-.158-1.049-.237-1.33-.45c-.28-.213-.46-.536-.82-1.182l-.327-.588C13.58 3.136 12.947 2 12 2s-1.58 1.136-2.847 3.408"
-                  opacity=".5"
+                  d="M18 8h1a3 3 0 0 1 0 6h-1v1a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3V8a3 3 0 0 1 3-3h9a3 3 0 0 1 3 3zM6 5v3M10 5v3"
                 ></path>
               </svg>
               <span class="text-sm font-semibold text-gray-400">
-                Yrs Expertise
+                Pro Experiences
               </span>
             </div>
           </button>

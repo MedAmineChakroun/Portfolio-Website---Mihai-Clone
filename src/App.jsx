@@ -18,7 +18,6 @@ function App() {
           <div className="grid h-fit grid-cols-1 gap-4">
             <Header />
             <Services />
-            <Projects />
           </div>
 
           {/* Middle Column */}
