@@ -2,11 +2,11 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div
-      className="rounded-lg border bg-card text-card-foreground shadow-sm"
-      style={{ backgroundColor: "var(--card-bg)" }}
-    >
-      <div className="p-6 pt-0 mt-5">
+    <div className="rounded-lg border bg-card text-card-foreground shadow-sm">
+      <div
+        className="p-6 pt-0 mt-5"
+        style={{ backgroundColor: "var(--card-bg)" }}
+      >
         <div className="flex flex-row items-center">
           <img
             alt="Author"
@@ -42,8 +42,14 @@ const Header = () => {
           </div>
         </div>
 
-        <div class="mt-5 flex max-w-[50vh] flex-wrap gap-2 rounded-xl bg-background p-3">
-          <div class="flex flex-row items-center gap-1 rounded-xl bg-secondary/60 py-1 pl-3 pr-4 transition duration-300 hover:scale-105 max-md:grow">
+        <div
+          class="mt-5 flex max-w-[50vh] flex-wrap gap-2 rounded-xl bg-background p-3"
+          style={{ backgroundColor: "#0d0c0d" }}
+        >
+          <div
+            class="flex flex-row items-center gap-1 rounded-xl bg-secondary/60 py-1 pl-3 pr-4 transition duration-300 hover:scale-105 max-md:grow"
+            style={{ backgroundColor: "var(--secondary)" }}
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -64,10 +70,13 @@ const Header = () => {
               </g>
             </svg>
             <p class="text-sm font-semibold text-gray-400">
-              English &amp; Romanian
+              English &amp; Frensh
             </p>
           </div>
-          <div class="flex flex-row items-center gap-1 rounded-xl bg-secondary/60 py-1 pl-3 pr-4 transition duration-300 hover:scale-105 max-md:grow">
+          <div
+            class="flex flex-row items-center gap-1 rounded-xl bg-secondary/60 py-1 pl-3 pr-4 transition duration-300 hover:scale-105 max-md:grow"
+            style={{ backgroundColor: "var(--secondary)" }}
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -84,9 +93,12 @@ const Header = () => {
                 d="m19.184 7.805l-2.965-2.967c-2.027-2.03-3.04-3.043-4.129-2.803s-1.581 1.587-2.568 4.28l-.668 1.823c-.263.718-.395 1.077-.632 1.355a2 2 0 0 1-.36.332c-.296.213-.664.314-1.4.517c-1.66.458-2.491.687-2.804 1.23a1.53 1.53 0 0 0-.204.773c.004.627.613 1.236 1.83 2.455L6.7 16.216l-4.476 4.48a.764.764 0 0 0 1.08 1.08l4.475-4.48l1.466 1.468c1.226 1.226 1.839 1.84 2.47 1.84c.265 0 .526-.068.757-.2c.548-.313.778-1.149 1.239-2.822c.202-.735.303-1.102.515-1.399q.14-.194.322-.352c.275-.238.632-.372 1.345-.64l1.844-.693c2.664-1 3.996-1.501 4.23-2.586c.235-1.086-.77-2.093-2.783-4.107"
               ></path>
             </svg>
-            <p class="text-sm font-semibold text-gray-400">Romania</p>
+            <p class="text-sm font-semibold text-gray-400">Tunisia</p>
           </div>
-          <div class="flex flex-row items-center gap-1 rounded-xl bg-secondary/60 py-1 pl-3 pr-4 transition duration-300 hover:scale-105 max-md:grow">
+          <div
+            class="flex flex-row items-center gap-1 rounded-xl bg-secondary/60 py-1 pl-3 pr-4 transition duration-300 hover:scale-105 max-md:grow"
+            style={{ backgroundColor: "var(--secondary)" }}
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -107,9 +119,12 @@ const Header = () => {
                 d="M2 11.75a9.75 9.75 0 0 0 9.75 9.75q.309 0 .611-.019A6.47 6.47 0 0 1 11 17.5v2.337c-.73-.311-1.478-1.072-2.124-2.283a11.3 11.3 0 0 1-.904-2.322c.943.14 1.963.23 3.028.258v2.01c0-1.58.563-3.027 1.5-4.154V9.511c1.215.034 2.35.15 3.358.33c.065.44.108.888.129 1.336q.721-.173 1.493-.177a15 15 0 0 0-.065-.803q.24.07.462.143c.77.257 1.34.546 1.701.831c.13.102.22.192.282.27c.587.23 1.132.54 1.621.92q.02-.303.019-.611C21.5 6.365 17.135 2 11.75 2S2 6.365 2 11.75m3.149-2.833a9 9 0 0 0-1.33.552a8.27 8.27 0 0 1 4.266-5.112q-.288.424-.532.883c-.523.981-.935 2.126-1.202 3.338q-.641.152-1.202.34m3.727-2.971C9.522 4.736 10.27 3.974 11 3.663V8.01a25 25 0 0 0-3.028.258a11.3 11.3 0 0 1 .904-2.322M7.642 9.84A23 23 0 0 1 11 9.511v4.478a23 23 0 0 1-3.358-.33A13 13 0 0 1 7.5 11.75c0-.639.05-1.28.142-1.909m-3.823 4.19c.398.207.847.39 1.33.552q.56.187 1.202.34c.267 1.211.679 2.356 1.202 3.337q.243.459.532.883a8.27 8.27 0 0 1-4.266-5.112m1.804-.871c-.77-.257-1.34-.546-1.702-.831c-.37-.292-.421-.493-.421-.579s.052-.287.421-.579c.362-.285.932-.574 1.702-.83q.222-.075.462-.144a14.4 14.4 0 0 0 0 3.106q-.24-.07-.462-.143m10.324-7.92a10 10 0 0 0-.532-.883a8.27 8.27 0 0 1 4.266 5.112a9 9 0 0 0-1.33-.552a14 14 0 0 0-1.202-.34c-.267-1.211-.679-2.356-1.202-3.337M12.5 8.01V3.663c.73.311 1.478 1.072 2.124 2.283c.366.687.673 1.476.904 2.322c-.943-.14-1.963-.23-3.028-.258"
               ></path>
             </svg>
-            <p class="text-sm font-semibold text-gray-400">UTC+3</p>
+            <p class="text-sm font-semibold text-gray-400">UTC+1</p>
           </div>
-          <div class="flex flex-row items-center gap-1 rounded-xl bg-secondary/60 py-1 pl-3 pr-4 transition duration-300 hover:scale-105 max-md:grow">
+          <div
+            class="flex flex-row items-center gap-1 rounded-xl bg-secondary/60 py-1 pl-3 pr-4 transition duration-300 hover:scale-105 max-md:grow"
+            style={{ backgroundColor: "var(--secondary)" }}
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -131,7 +146,10 @@ const Header = () => {
             </svg>
             <p class="text-sm font-semibold text-gray-400">Coffee Addict</p>
           </div>
-          <div class="flex flex-row items-center gap-1 rounded-xl bg-secondary/60 py-1 pl-3 pr-4 transition duration-300 hover:scale-105 max-md:grow">
+          <div
+            class="flex flex-row items-center gap-1 rounded-xl bg-secondary/60 py-1 pl-3 pr-4 transition duration-300 hover:scale-105 max-md:grow"
+            style={{ backgroundColor: "var(--secondary)" }}
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -154,7 +172,10 @@ const Header = () => {
             </svg>
             <p class="text-sm font-semibold text-gray-400">Freelancer</p>
           </div>
-          <div class="flex flex-row items-center gap-1 rounded-xl bg-secondary/60 py-1 pl-3 pr-4 transition duration-300 hover:scale-105 max-md:grow">
+          <div
+            class="flex flex-row items-center gap-1 rounded-xl bg-secondary/60 py-1 pl-3 pr-4 transition duration-300 hover:scale-105 max-md:grow"
+            style={{ backgroundColor: "var(--secondary)" }}
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               xmlns:xlink="http://www.w3.org/1999/xlink"

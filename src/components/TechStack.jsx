@@ -67,6 +67,7 @@ const TechStack = () => {
               key={index}
               href={tech.link}
               className="group relative flex cursor-pointer flex-row items-center gap-4 rounded-lg bg-secondary p-4 transition hover:bg-secondary/80"
+              style={{ backgroundColor: "#0d0c0d", borderRadius: "12px" }}
             >
               <div
                 className="flex items-center justify-center w-12 h-12 "
@@ -78,7 +79,7 @@ const TechStack = () => {
                 <h1 className="text-lg font-semibold text-white">
                   {tech.name}
                 </h1>
-                <p className="text-sm text-gray-400">{tech.version}</p>
+                <p className="text-xs text-gray-400">{tech.version}</p>
               </div>
               <svg
                 xmlns="http://www.w3.org/2000/svg"

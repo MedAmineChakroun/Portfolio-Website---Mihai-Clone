@@ -67,8 +67,14 @@ const WorkProcess = () => {
       <div class="p-6 pt-0">
         <div class="grid grid-cols-1 gap-4">
           <div class="rounded-lg border text-card-foreground shadow-sm group h-fit overflow-hidden bg-background">
-            <div class="relative flex flex-row gap-4 p-3 transition-all duration-300">
-              <div class="flex h-full items-center gap-1 rounded-lg border border-accent bg-secondary/50 p-1 transition-all duration-300 group-hover:rounded-l group-hover:border-r-transparent md:group-hover:scale-150 md:group-hover:rounded-r-none">
+            <div
+              class="relative flex flex-row gap-4 p-3 transition-all duration-300"
+              style={{ backgroundColor: "#0d0c0d" }}
+            >
+              <div
+                class="flex h-full items-center gap-1 rounded-lg border border-accent bg-secondary/50 p-1 transition-all duration-300 group-hover:rounded-l group-hover:border-r-transparent md:group-hover:scale-150 md:group-hover:rounded-r-none"
+                style={{ backgroundColor: "var(--secondary)" }}
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -98,8 +104,14 @@ const WorkProcess = () => {
             </div>
           </div>
           <div class="rounded-lg border text-card-foreground shadow-sm group h-fit overflow-hidden bg-background">
-            <div class="relative flex flex-row gap-4 p-3 transition-all duration-300">
-              <div class="flex h-full items-center gap-1 rounded-lg border border-accent bg-secondary/50 p-1 transition-all duration-300 group-hover:rounded-l group-hover:border-r-transparent md:group-hover:scale-150 md:group-hover:rounded-r-none">
+            <div
+              class="relative flex flex-row gap-4 p-3 transition-all duration-300"
+              style={{ backgroundColor: "#0d0c0d" }}
+            >
+              <div
+                class="flex h-full items-center gap-1 rounded-lg border border-accent bg-secondary/50 p-1 transition-all duration-300 group-hover:rounded-l group-hover:border-r-transparent md:group-hover:scale-150 md:group-hover:rounded-r-none"
+                style={{ backgroundColor: "var(--secondary)" }}
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -133,8 +145,14 @@ const WorkProcess = () => {
             </div>
           </div>
           <div class="rounded-lg border text-card-foreground shadow-sm group h-fit overflow-hidden bg-background">
-            <div class="relative flex flex-row gap-4 p-3 transition-all duration-300">
-              <div class="flex h-full items-center gap-1 rounded-lg border border-accent bg-secondary/50 p-1 transition-all duration-300 group-hover:rounded-l group-hover:border-r-transparent md:group-hover:scale-150 md:group-hover:rounded-r-none">
+            <div
+              class="relative flex flex-row gap-4 p-3 transition-all duration-300"
+              style={{ backgroundColor: "#0d0c0d" }}
+            >
+              <div
+                class="flex h-full items-center gap-1 rounded-lg border border-accent bg-secondary/50 p-1 transition-all duration-300 group-hover:rounded-l group-hover:border-r-transparent md:group-hover:scale-150 md:group-hover:rounded-r-none"
+                style={{ backgroundColor: "var(--secondary)" }}
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -167,8 +185,14 @@ const WorkProcess = () => {
             </div>
           </div>
           <div class="rounded-lg border text-card-foreground shadow-sm group h-fit overflow-hidden bg-background">
-            <div class="relative flex flex-row gap-4 p-3 transition-all duration-300">
-              <div class="flex h-full items-center gap-1 rounded-lg border border-accent bg-secondary/50 p-1 transition-all duration-300 group-hover:rounded-l group-hover:border-r-transparent md:group-hover:scale-150 md:group-hover:rounded-r-none">
+            <div
+              class="relative flex flex-row gap-4 p-3 transition-all duration-300"
+              style={{ backgroundColor: "#0d0c0d" }}
+            >
+              <div
+                class="flex h-full items-center gap-1 rounded-lg border border-accent bg-secondary/50 p-1 transition-all duration-300 group-hover:rounded-l group-hover:border-r-transparent md:group-hover:scale-150 md:group-hover:rounded-r-none"
+                style={{ backgroundColor: "var(--secondary)" }}
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   xmlns:xlink="http://www.w3.org/1999/xlink"
